@@ -1,0 +1,19 @@
+<%= simple_form_for(@goal, defaults: {input_html: {class: 'form-control'}}) do |f| %>
+  <%= f.error_notification %>
+  <div class="form-inputs">
+    <div class="form-group">
+      <%= f.input :name %>
+    </div>
+    <div class="form-group">
+      <%= f.input :city %>
+    </div>
+    <div class="form-group">
+      <%= f.input :description %>
+    </div>
+  </div>
+  <div class="form-actions">
+    <button  class="btn btn-success btn-block btn-animated from-left fa fa-check"  type="submit" name="commit" value="Create Review">
+      <span>Submit Goal</span>
+    </button>
+  </div>
+<% end %>

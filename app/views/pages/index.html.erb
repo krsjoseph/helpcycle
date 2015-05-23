@@ -7,7 +7,7 @@
         <!-- .header-inner Allows to vertically Align elements to the Center-->
         <div class="header-inner">
           <!-- BEGIN LOGO -->
-          <img src="/assets/images/logo_white.png" class="" height="20"  alt="">
+          <img src="/assets/images/logo_white.png" class="" height="40"  alt="">
         </div>
       </div>
       <div class="pull-right">
@@ -36,18 +36,13 @@
                   <span data-text="Welcome">Welcome</span>
                 </a>
               </li>
-              <li class="mega">
-                <a href="javascript:;" data-text="Elements">Elements <i class="pg-arrow_minimize m-l-5"></i>
-                  <span data-text="Shortcodes">Shortcodes</span></a>
-                <?php include('../../includes/menus/mega.html') ?>
+              <li>
+                <a href="pricing.html" data-text="Pricing">Community
+                  <span data-text="Plans">Goals</span> </a>
               </li>
               <li>
-                <a href="pricing.html" data-text="Pricing">Pricing
-                  <span data-text="Plans">Plans</span> </a>
-              </li>
-              <li>
-                <a href="portfolio.html" data-text="Portofolio">Portfolio
-                  <span data-text="Clients">Clients</span></a>
+                <a href="portfolio.html" data-text="Portofolio">Locations
+                  <span data-text="Clients">Dropoff</span></a>
               </li>
               <li>
                 <a href="contact.html" data-text="Contact Us">Contact Us
@@ -73,7 +68,7 @@
 <!-- END HEADER -->
 <!-- BEGIN JUMBOTRON -->
 <section class="jumbotron full-height bg-primary demo-height-2" data-pages="parallax" >
-  <div class="full-height"data-pages-bg-image="/assets/images/hero.jpg" data-bg-overlay="black" data-overlay-opacity="0.4">
+  <div class="full-height"data-pages-bg-image="http://i.huffpost.com/gen/1567333/images/o-HBCUS-RECYCLING-facebook.jpg" data-bg-overlay="black" data-overlay-opacity="0.4">
     <div class="container-xs-height full-height inner">
       <div class="col-xs-height col-middle text-left">
         <div class="container">
@@ -87,8 +82,8 @@
 </section>
 <!-- END JUMBOTRON -->
 <section class="p-b-15 p-t-15 bg-white text-center text-white">
-  <h3 class="inline ">Find Places To Recycle</h3>
-  <button class="btn btn-cons btn-bordered m-l-20 xs-m-b-15 btn-black" type="button">Discover</button>
+  <h3 class="inline ">Add your goal now</h3>
+  <button class="btn btn-cons btn-bordered m-l-20 xs-m-b-15 btn-black"  data-toggle="modal" data-target="#new_goal">Get Started</button>
 </section>
 <section class=" bg-master-lightest p-b-85 p-t-75">
   <div class="container">
@@ -107,6 +102,39 @@
     </div>
   </div>
 </section>
+<section class="bg-white relative p-b-85 p-t-75 p-b-65 p-t-55">
+  <div class="container">
+    <h1 class="text-center m-b-20">How it works</h1>
+    <div class="md-p-l-20 xs-no-padding clearfix">
+      <div class="col-sm-4 no-padding">
+        <div class="p-r-40 md-p-r-30 xs-no-padding text-center">
+          <img alt="" class="m-b-20" src="/assets/images/Parachute.svg">
+          <h6 class="block-title p-b-5">Create your goal <i class="pg-arrow_right m-l-10"></i></h6>
+          <p class="m-b-30">Create and submit your goal to us.</p>
+          <p class="muted font-arial small-text col-sm-9 col-sm-offset-2 no-padding">We review and tell you how much needs to be recycled to achieve it.</p>
+        </div>
+        <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
+      </div>
+      <div class="col-sm-4 no-padding">
+        <div class="p-r-40 md-p-r-30 xs-no-padding text-center">
+          <img alt="" class="m-b-20" src="/assets/images/Prizemedalion.svg">
+          <h6 class="block-title p-b-5">Recycle <i class="pg-arrow_right m-l-10"></i></h6>
+          <p class="m-b-30">Go forth and recycle. </p>
+          <p class="muted font-arial small-text col-sm-9 col-sm-offset-2 no-padding">We will collect, recycle and sell the waste on your behalf.</p>
+        </div>
+        <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
+      </div>
+      <div class="col-sm-4 no-padding">
+        <div class="p-r-40 md-p-r-30  xs-no-padding text-center">
+          <img alt="" class="m-b-20" src="/assets/images/Umbrella.svg">
+          <h6 class="block-title p-b-5">Get Rewarded <i class="pg-arrow_right m-l-10"></i></h6>
+          <p class="m-b-30">Reach the recycling quota and claim your reward.</p>
+          <p class="muted font-arial small-text col-sm-9 col-sm-offset-2 no-padding">Claim your reward and make your comminuty a better place.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="p-b-30 p-t-40 bg-master-lighter">
   <div class="container">
     <div class="social-wrapper">
@@ -115,6 +143,109 @@
         <div class="feed">
           <!-- START DAY -->
           <div class="day" data-social="day">
+            <!-- START ITEM -->
+            <div class="card share  col1" data-social="item">
+              <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+              </div>
+              <div class="card-header clearfix">
+                <div class="user-pic">
+                  <img alt="Profile Image" width="33" height="33" data-src-retina="/assets/images/profiles/6x.jpg" data-src="/assets/images/profiles/6.jpg" src="/assets/images/profiles/6x.jpg">
+                </div>
+                <h5>Jeff Curtis</h5>
+                <h6>Shared a Tweet
+                  <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                </h6>
+              </div>
+              <div class="card-description">
+                <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+                <div class="via">via Twitter</div>
+              </div>
+              <div class="card-description">
+                <h5 class='hint-text no-margin'>Apple Inc.</h5>
+                <h5 class="small hint-text no-margin">NASDAQ: AAPL - Nov 13 8:37 AM ET</h5>
+                <h3>111.25 <span class="text-success"><i class="fa fa-sort-up small text-success"></i> 0.15 (0.13%)</span></h3>
+              </div>
+            </div>
+            <!-- END ITEM -->
+            <!-- START ITEM -->
+            <div class="card share  col1" data-social="item">
+              <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+              </div>
+              <div class="card-header clearfix">
+                <div class="user-pic">
+                  <img alt="Profile Image" width="33" height="33" data-src-retina="/assets/images/profiles/6x.jpg" data-src="/assets/images/profiles/6.jpg" src="/assets/images/profiles/6x.jpg">
+                </div>
+                <h5>Jeff Curtis</h5>
+                <h6>Shared a Tweet
+                  <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                </h6>
+              </div>
+              <div class="card-description">
+                <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+                <div class="via">via Twitter</div>
+              </div>
+            </div>
+            <!-- END ITEM -->
+            <!-- START ITEM -->
+            <div class="card share  col1" data-social="item">
+              <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+              </div>
+              <div class="card-header clearfix">
+                <div class="user-pic">
+                  <img alt="Profile Image" width="33" height="33" data-src-retina="/assets/images/profiles/6x.jpg" data-src="/assets/images/profiles/6.jpg" src="/assets/images/profiles/6x.jpg">
+                </div>
+                <h5>Jeff Curtis</h5>
+                <h6>Shared a Tweet
+                  <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                </h6>
+              </div>
+              <div class="card-description">
+                <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+                <div class="via">via Twitter</div>
+              </div>
+            </div>
+            <!-- END ITEM -->
+
+            <!-- START ITEM -->
+            <div class="card share  col1" data-social="item">
+              <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+              </div>
+              <div class="card-header clearfix">
+                <div class="user-pic">
+                  <img alt="Profile Image" width="33" height="33" data-src-retina="/assets/images/profiles/6x.jpg" data-src="/assets/images/profiles/6.jpg" src="/assets/images/profiles/6x.jpg">
+                </div>
+                <h5>Jeff Curtis</h5>
+                <h6>Shared a Tweet
+                  <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                </h6>
+              </div>
+              <div class="card-description">
+                <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+                <div class="via">via Twitter</div>
+              </div>
+            </div>
+            <!-- END ITEM -->
+
+            <!-- START ITEM -->
+            <div class="card share  col1" data-social="item">
+              <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+              </div>
+              <div class="card-header clearfix">
+                <div class="user-pic">
+                  <img alt="Profile Image" width="33" height="33" data-src-retina="/assets/images/profiles/6x.jpg" data-src="/assets/images/profiles/6.jpg" src="/assets/images/profiles/6x.jpg">
+                </div>
+                <h5>Jeff Curtis</h5>
+                <h6>Shared a Tweet
+                  <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                </h6>
+              </div>
+              <div class="card-description">
+                <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+                <div class="via">via Twitter</div>
+              </div>
+            </div>
+            <!-- END ITEM -->
+
             <!-- START ITEM -->
             <div class="card share  col1" data-social="item">
               <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
@@ -329,17 +460,21 @@
         <div class="m-t-10 ">
           <ul class="no-style fs-11 no-padding font-arial">
             <li class="inline no-padding"><a href="#" class=" text-master p-r-10 b-r b-grey">Home</a></li>
-            <li class="inline no-padding"><a href="#" class="hint-text text-master p-l-10 p-r-10 b-r b-grey">Themeforest Profile</a></li>
+            <!--<li class="inline no-padding"><a href="#" class="hint-text text-master p-l-10 p-r-10 b-r b-grey">Themeforest Profile</a></li>-->
             <li class="inline no-padding"><a href="#" class="hint-text text-master p-l-10 p-r-10 b-r b-grey">Support</a></li>
-            <li class="inline no-padding"><a href="#" class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10">Made with Pages</a></li>
+            <li class="inline no-padding"><a href="#" class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10">Made with Love</a></li>
           </ul>
         </div>
       </div>
       <div class="col-sm-6 text-right font-arial sm-text-left">
-        <p class="fs-11 no-margin small-text"><span class="hint-text">Exclusive only at</span> Envato Marketplace,Themeforest <span class="hint-text">See</span> Standard licenses &amp; Extended licenses
+        <!--<p class="fs-11 no-margin small-text"><span class="hint-text">Exclusive only at</span> Envato Marketplace,Themeforest <span class="hint-text">See</span> Standard licenses &amp; Extended licenses-->
         </p>
-        <p class="fs-11 muted">Copyright &copy; 2014 REVOX. All Rights Reserved.</p>
+        <p class="fs-11 muted">Copyright &copy; <%= Time.now.year %> Help Cycle. All Rights Reserved.</p>
       </div>
     </div>
   </div>
 </section>
+
+
+<%= render "application/new_goal_modal" %>
+

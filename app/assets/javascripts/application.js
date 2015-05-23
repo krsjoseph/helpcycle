@@ -32,17 +32,13 @@
 //= require pages-plugins/jquery-isotope/isotope.pkgd.min
 //= require pages-plugins/animateNumber/jquery.animateNumbers
 //= require pages-plugins/jquery-appear/jquery.appear
-
-
-
-
-
+//= require pages-core/js/pages.image.loader
 
 // BEGIN CORE TEMPLATE JS FOR PAGES
 //= require pages-plugins/animateNumber/jquery.animateNumbers
 //= require pages-core/js/pages.frontend
 //= require pages-core/js/pages.social
 //= require pages-core/js/custom
-//= require pages-core/js/pages.image.loader
+
 
 //= require_tree .
