@@ -10,6 +10,7 @@ gem "coffee-rails", "~> 4.1.0"
 gem "delayed_job_active_record"
 gem "email_validator"
 gem "flutie"
+gem 'gmaps4rails'
 gem "high_voltage"
 gem "i18n-tasks"
 gem "jquery-rails"

@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require gmaps/google
 //= require pages-plugins/pace/pace.min
 //= require pages-plugins/jquery/jquery-1.11.1.min
 //= require pages-plugins/modernizr.custom
@@ -24,7 +25,24 @@
 //= require pages-plugins/imagesloaded/imagesloaded.pkgd.min
 //= require pages-plugins/jquery-actual/jquery.actual.min
 //= require pages-plugins/jquery-scrollbar/jquery.scrollbar.min
+//= require pages-plugins/velocity/velocity.min
+//= require pages-plugins/swiper/js/swiper.jquery.min
+//= require pages-plugins/velocity/velocity.ui
+//= require pages-plugins/vide/jquery.vide.min
+//= require pages-plugins/jquery-isotope/isotope.pkgd.min
+//= require pages-plugins/animateNumber/jquery.animateNumbers
+//= require pages-plugins/jquery-appear/jquery.appear
+
+
+
+
+
 
 // BEGIN CORE TEMPLATE JS FOR PAGES
-//= require pages-core/js/pages
+//= require pages-plugins/animateNumber/jquery.animateNumbers
+//= require pages-core/js/pages.frontend
+//= require pages-core/js/pages.social
+//= require pages-core/js/custom
+//= require pages-core/js/pages.image.loader
+
 //= require_tree .
