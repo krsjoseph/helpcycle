@@ -1,6 +1,26 @@
-@charset "utf-8";
+/*
+ * BEGIN VENDOR CSS FOR PAGES
+ *= require normalize-rails
+ *= require pages-plugins/pace/pace-theme-flash
+ *= require _bootstrap-sprockets
+ *= require _bootstrap
+ *= require pages-plugins/font-awesome/css/font-awesome
+ *= require pages-plugins/jquery-scrollbar/jquery.scrollbar
+ *= require pages-plugins/bootstrap-select2/select2
+ *= require pages-plugins/switchery/css/switchery
+ *= require pages-plugins/jquery-metrojs/MetroJs
+ *= require pages-plugins/codrops-dialogFx/dialog
+ *= require pages-plugins/owl-carousel/assets/owl.carousel
+ *= require pages-plugins/codrops-dialogFx/dialog-sandra
+ *= require pages-plugins/jquery-nouislider/jquery.nouislider
+ *= require pages-plugins/jquery-scrollbar/jquery.scrollbar
+ *= require pages-plugins/bootstrap-select2/select2
+ *= require pages-plugins/switchery/css/switchery.min
+ * BEGIN CORE TEMPLATE CSS FOR PAGES
+ *= require pages-core/css/pages-icons
+ *= require pages-core/css/pages
+*/
 
-@import "normalize-rails";
 @import "bourbon";
 @import "base/grid-settings";
 @import "neat";
